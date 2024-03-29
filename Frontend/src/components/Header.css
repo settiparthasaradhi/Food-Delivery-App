@@ -1,0 +1,21 @@
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    background-color: orange;
+  }
+  
+  #main-header #title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  #main-header #title img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #ffc404;
+  }
